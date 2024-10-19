@@ -38,7 +38,56 @@ public class Libro {
         this(otro.titulo, otro.genero, otro.autor, otro.editorial, otro.isbn, otro.fechaPublicacion);
     }
     
+    //*****************************************************************
+    // Getters & Setters
+    //*****************************************************************
+    public String getTitulo(){
+        return titulo;
+    }
+    
+    public String getGenero(){
+        return genero;
+    }
+    
+    public String getAutor(){
+        return autor;
+    }
+    
+    public String getEditorial(){
+        return editorial;
+    }
+    
+    public int getIsbn(){
+        return isbn;
+    }
+    
+    public int getFechaPublicacion(){
+        return fechaPublicacion;
+    }
+   
+    
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+    public void setAutor(String autor) { 
+        this.autor = autor;
+    }
+    public void setEditorial(String editorial) { 
+        this.editorial = editorial;
+    }
+    public void setIsbn(int isbn) { 
+        this.isbn = isbn;
+    }
+       public void setFechaPublicacion(int fechaPublicacion) { 
+        this.fechaPublicacion = fechaPublicacion;
+    }
+    
+    
     
     
     
 }
+    
