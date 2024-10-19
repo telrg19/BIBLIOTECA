@@ -9,6 +9,7 @@ package modelos;
  * @author Telma
  */
 public class Libro {
+    
     //*****************************************************************
     // Attributes 
     //*****************************************************************
@@ -19,8 +20,23 @@ public class Libro {
     private int isbn;
     private int fechaPublicacion;
     
-    
-    
+    //*****************************************************************
+    // Constructors 
+    //*****************************************************************
+    public Libro(String titulo, String genero, String autor, String editorial, int isbn, int fechaPublicacion){
+        this.titulo = titulo;
+        this.genero = genero;
+        this.autor = autor;
+        this.editorial = editorial;
+        this.isbn = isbn;
+        this.fechaPublicacion = fechaPublicacion;
+    }
+    public Libro(){
+        this("Tituto desconocido", "Genero desconocido", "Autor desconocido", "Editorial desconocida", 0, 0);
+    }
+    public Libro(Libro otro){
+        this(otro.titulo, otro.genero, otro.autor, otro.editorial, otro.isbn, otro.fechaPublicacion);
+    }
     
     
     
