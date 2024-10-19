@@ -120,18 +120,27 @@ public class Libro {
         System.out.println("Fecha de Publicacion: " + libro1.getFechaPublicacion());
         
         
+        libro1.setTitulo("Don Quijote de la Mancha");
+        System.out.println("Titulo: " + libro1.getTitulo());
         
+        libro1.setGenero("Novela de Aventuras");
+        System.out.println("Genero: " + libro1.getGenero());
         
+        libro1.setAutor("Cervantes");
+        System.out.println("Autor: " + libro1.getAutor());
         
+        libro1.setEditorial("Urbano Manini");
+        System.out.println("Editorial: " + libro1.getEditorial());
         
+        libro1.setIsbn("978-1234567890");
+        System.out.println("ISBN: " + libro1.getIsbn());
         
+        libro1.setFechaPublicacion(1605);
+        System.out.println("Fecha de Publicacion: " + libro1.getFechaPublicacion());
         
+        System.out.println(libro1);
         
-    }    
-    
-    
-    
-    
+    }      
     
 }
     
