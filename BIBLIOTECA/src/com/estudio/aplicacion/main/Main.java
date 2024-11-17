@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package biblioteca;
+package com.estudio.aplicacion.main;
 
-import modelos.Fecha;
-import modelos.Genero;
-import modelos.Idioma;
-import modelos.Libro;
+import com.estudio.aplicacion.utils.Fecha;
+import com.estudio.aplicacion.utils.Genero;
+import com.estudio.aplicacion.utils.Idioma;
+import com.estudio.aplicacion.modelos.Libro;
 
 /**
  *
  * @author Telma
  */
-public class BIBLIOTECA {
+public class Main {
     
     /**
      * @param args the command line arguments
