@@ -42,6 +42,11 @@ public class Ejemplar {
         this.fechaPublicacion = otro.fechaPublicacion;
         this.idioma = otro.idioma;
     }
+    
+    public Ejemplar(String titulo, String autor){
+        this.titulo = titulo;
+        this.autor = autor;
+    }
         
     //*****************************************************************
     // Getters & Setters

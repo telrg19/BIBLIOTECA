@@ -10,4 +10,8 @@ package com.estudio.aplicacion.utils;
  */
 public enum Idioma {
     ESPANIOL, INGLES, FRANCES, ALEMAN, PORTUGUES;
+
+    public static Idioma fromString(String text) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

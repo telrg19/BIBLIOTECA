@@ -67,6 +67,9 @@ public class Fecha {
         this.anio = anio;
     }
 
+    public static Fecha fromString(String text) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
