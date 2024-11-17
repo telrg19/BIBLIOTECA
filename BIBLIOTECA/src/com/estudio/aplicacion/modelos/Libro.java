@@ -2,7 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelos;
+package com.estudio.aplicacion.modelos;
+
+import com.estudio.aplicacion.utils.Idioma;
+import com.estudio.aplicacion.utils.Genero;
+import com.estudio.aplicacion.utils.Fecha;
 
 /**
  *
@@ -22,6 +26,7 @@ public class Libro extends Ejemplar {
     //*****************************************************************
     // Constructors 
     //*****************************************************************
+    
     public Libro(String titulo, String autor, Fecha fechaPublicacion, Idioma idioma, Genero genero, String editorial, String isbn){
         super(titulo, autor, fechaPublicacion, idioma);
         this.genero = genero;
@@ -127,6 +132,8 @@ public class Libro extends Ejemplar {
         System.out.println(libro1);
         
     }      
+    
+    
     
 }
     

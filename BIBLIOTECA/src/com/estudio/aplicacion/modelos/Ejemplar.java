@@ -2,7 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelos;
+package com.estudio.aplicacion.modelos;
+
+import com.estudio.aplicacion.utils.Idioma;
+import com.estudio.aplicacion.utils.Fecha;
 
 /**
  *
@@ -76,5 +79,15 @@ public class Ejemplar {
     public void setIdioma(Idioma idioma){
         this.idioma = idioma;
     }
+
+    @Override
+    public String toString() {
+        return "Ejemplar{" + "titulo=" + titulo + ", autor=" + autor + ", fechaPublicacion=" + fechaPublicacion + ", idioma=" + idioma + '}';
+    }
+
+    public Object getNombre() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
     
 }

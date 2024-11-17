@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelos;
+package com.estudio.aplicacion.utils;
 
 /**
  *
@@ -38,8 +38,45 @@ public class Fecha {
         this.anio = otro.anio;
     }
     
+    //*****************************************************************
+    // Getters & Setters
+    //*****************************************************************
+    
+    public int getDia(){
+        return dia;
+    }
+    
+    public int getMes(){
+        return mes;
+    }
+    
+    public int getAnio(){
+        return anio;
+    }
     
     
+    public void setDia(int dia){
+        this.dia = dia;
+    }
+    
+    public void setMes(int mes){
+        this.mes = mes;
+    }
+    
+    public void setAnio(int anio){
+        this.anio = anio;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Fecha{");
+        sb.append("dia=").append(dia);
+        sb.append(", mes=").append(mes);
+        sb.append(", anio=").append(anio);
+        sb.append('}');
+        return sb.toString();
+    }
     
 }
 
